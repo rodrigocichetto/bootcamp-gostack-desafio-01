@@ -1,5 +1,3 @@
-# bootcamp-gostack-desafio-01
-
 <h1 align="center">
     <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
 </h1>
@@ -14,7 +12,7 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/rodrigocichetto/bootcamp-gostack-desafio-01?color=%2304D361">
 
   <a href="https://cichetto.com.br">
-    <img alt="Made by Cichetto" src="https://img.shields.io/badge/made%20by-Cichetto-green">
+    <img alt="Made by Cichetto" src="https://img.shields.io/badge/made%20by-Cichetto-%232193b0">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-%2304D361">
@@ -60,6 +58,15 @@ Se eu chamar a rota `POST /projects` repassando `{ id: 1, title: 'Novo projeto' 
 - Crie um middleware que será utilizado em todas rotas que recebem o ID do projeto nos parâmetros da URL que verifica se o projeto com aquele ID existe. Se não existir retorne um erro, caso contrário permita a requisição continuar normalmente;
 
 - Crie um middleware global chamado em todas requisições que imprime (`console.log`) uma contagem de quantas requisições foram feitas na aplicação até então;
+
+### Run
+
+```bash
+# using yarn
+yarn dev
+# or using npm
+npm run dev
+```
 
 ## :memo: Licença
 
